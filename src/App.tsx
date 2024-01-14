@@ -50,13 +50,13 @@ function App() {
            Dev.to
           </a>
           
-          {/*<a href="https://www.linkedin.com/in/jo%C3%A3o-alison-de-sousa-martins" target="_blank" className={buttonVariants({ variant: "default" })}>
+          <a href="https://exercism.org/profiles/JoaoAlisonTI" target="_blank" className={buttonVariants({ variant: "default" })}>
            <Icon 
             src="/exercism_icon.svg"
            />
            Exercism
           </a>
-          */}
+          
           <a href="https://www.beecrowd.com.br/judge/en/users/statistics/726935" target="_blank" className={buttonVariants({ variant: "default" })}>
            <Icon 
             src="/bee_icon.svg"
@@ -69,13 +69,6 @@ function App() {
             src="/frontend_icon.svg"
            />
            Frontend Mentor
-          </a>
-          
-          <a href="https://leetcode.com/JoaoAlisonTI/" target="_blank" className={buttonVariants({ variant: "default" })}>
-           <Icon 
-            src="/code_icon.svg"
-           />
-           LeetCode
           </a>
          
         </div>
