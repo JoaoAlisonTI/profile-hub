@@ -1,10 +1,10 @@
-<h2 align="center">My Profile Links</h2>
+<h2 align="center">Profile.hub</h2>
 
 <p align="center">
-A mini project developed with the aim of bringing together some of the links that I consider important for my profile in 2024 👤🌐.
+Em desenvolvimento...
 <br/>
 </p>
-
+<!--
 - [Overview](#overview)
   - [About project](#about)
   - [Screenshots](#screenshots)
@@ -109,3 +109,4 @@ npm run dev
 ---
 
 <strong>2024</strong>
+-->
