@@ -1,7 +1,9 @@
+import { Logo } from "./components/Logo"
+
 function App() {
 
   return (
-    <h1>Hello World!</h1>
+    <Logo />
   )
 }
 

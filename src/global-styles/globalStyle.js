@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: Afacad Flux, Sans-serif;
     height: 100vh;
   }
 
