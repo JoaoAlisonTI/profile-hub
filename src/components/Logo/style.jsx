@@ -1,7 +1,6 @@
 import { styled } from 'styled-components';
 
 export const LogoDiv = styled.div`
-  padding: 4px 8px;
   display: flex;
   justify-content: start;
   align-items: center;
