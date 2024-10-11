@@ -2,7 +2,16 @@ import { styled } from 'styled-components';
 
 export const StyledHeader = styled.header`
   width: 100%;
-  padding: 16px 16px;
+  padding-bottom: 16px;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  p {
+    font-size: var(--font-size-paragraph);
+    color: var(--text-color);
+  }
 `;
 
 export const StyledHeaderTop = styled.div`
@@ -11,17 +20,16 @@ export const StyledHeaderTop = styled.div`
 
 export const StyledHeaderContent = styled.div`
   width: 100%;
-  margin-top: 24px;
+  margin-top: 32px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 12px;
+  flex-direction: column;
   
   img {
-    border: 1px solid var(--primary-color);
     padding: 4px;
     border-radius: 100%;
-    height: 124px;
+    width: 148px;
   }
 `;
 
@@ -31,28 +39,25 @@ export const StyledTextContent = styled.div`
   }
   
   p {
-    font-size: var(--font-size-paragraph);
-    color: var(--secondary-color);
+    font-weight: 700;
   }
+  
 `;
 
 export const StyledHeaderBottom = styled.div`
   width: 100%;
-  margin-top: 24px;
+  margin-top: 16px;
   
   span {
     color: var(--primary-color);
     text-decoration: none;
   }
   
-  p {
-    color: var(--secondary-color);
-    font-size: var(--font-size-paragraph);
-  }
   
   div {
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
   }

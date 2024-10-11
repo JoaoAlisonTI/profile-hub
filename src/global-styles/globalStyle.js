@@ -3,9 +3,10 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   :root {
     --primary-color: #6366f1;
-    --secondary-color: #a1a1aa;
-    --bg-color: #09090b;
-    --text-color: #f4f4f5;
+    --secondary-color: #64748b;
+    --tertiary-color: #111111;
+    --bg-color: #f4f4f5;
+    --text-color: #000000;
     
     --font-size-title: 2rem;
     --font-size-subtitle: 1.5rem;

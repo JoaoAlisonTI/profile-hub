@@ -4,8 +4,8 @@ import { LogoDiv, TextLogo } from "./style.jsx"
 export const Logo = () => {
   return (
     <LogoDiv>
-      <FaConnectdevelop size={24} />
-      <TextLogo>Profile.hub</TextLogo>
+      <FaConnectdevelop className="icon-logo" size={24} />
+      <TextLogo>Profile<span>.</span>hub</TextLogo>
     </LogoDiv>
   )
 }

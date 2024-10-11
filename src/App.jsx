@@ -1,12 +1,18 @@
 import { Header } from "./components/Header"
+import { StyledContainer, StyledButtonsDiv, StyledButton } from "./global-styles/appStyle.jsx"
+
 
 function App() {
 
   return (
-    <main>
+    <StyledContainer>
       <Header />
-      
-    </main>
+      <StyledButtonsDiv>
+        <StyledButton>Projetos</StyledButton>
+        <StyledButton>Skills</StyledButton>
+        <StyledButton>Links</StyledButton>
+      </StyledButtonsDiv>
+    </StyledContainer>
   )
 }
 

@@ -5,11 +5,17 @@ export const LogoDiv = styled.div`
   justify-content: start;
   align-items: center;
   gap: 4px;
-  color: var(--primary-color);
+  
+  .icon-logo{
+    color: var(--primary-color);
+  }
 `;
 
-export const TextLogo = styled.p`
-  
+export const TextLogo = styled.h3`
   font-size: var(--font-size-subtitle);
-  font-weight: 500;
+  font-weight: 700;
+  
+  span{
+    color: var(--primary-color);
+  }
 `;

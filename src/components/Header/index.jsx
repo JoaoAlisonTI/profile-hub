@@ -11,15 +11,15 @@ export const Header = () => {
       </StyledHeaderTop>
       
       <StyledHeaderContent>
-        <img src="https://github.com/JoaoAlisonTI.png" />
+        <img src="/images/perfil.png" alt="Imagem de perfil" />
         <StyledTextContent>
-          <h1>Desenvolvedor Web Front-End</h1>
-          <p>Transformando ideias em experiências digitais</p>
+          <h1>Desenvolvedor Front-End</h1>
+          <p>"Transformando ideias em experiências digitais"</p>
         </StyledTextContent>
       </StyledHeaderContent>
       
       <StyledHeaderBottom>
-        <p>Desenvolvedor Web Front-End especializado em <span>JavaScript</span> e <span>React.js</span>, com experiência em criar interfaces responsivas e acessíveis utilizando <span>CSS</span>, <span>Tailwind CSS</span> e <span>StyledComponents</span>.</p>
+        <p>Desenvolvedor Front-End especializado em <span>JavaScript</span> e <span>React.js</span>, com experiência em criar interfaces responsivas e acessíveis utilizando <span>CSS</span>, <span>Tailwind CSS</span> e <span>StyledComponents</span>.</p>
         <div>
           <LinkHeader url="https://github.com/JoaoAlisonTI">
             <FaGithub size={20} />
