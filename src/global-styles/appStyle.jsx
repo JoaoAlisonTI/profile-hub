@@ -34,3 +34,8 @@ export const StyledButton = styled.button`
     background-color: var(--primary-color);
   }
 `
+
+export const StyledSection = styled.section`
+  width: 100%;
+  margin-top: 20px;
+`

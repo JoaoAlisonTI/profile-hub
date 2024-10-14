@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
-import { StyledContainer, StyledButtonsDiv, StyledButton } from "./global-styles/appStyle.jsx"
+import { Projects } from "./components/Projects"
+import { StyledContainer, StyledButtonsDiv, StyledButton, StyledSection } from "./global-styles/appStyle.jsx"
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
         <StyledButton>Skills</StyledButton>
         <StyledButton>Links</StyledButton>
       </StyledButtonsDiv>
+      <StyledSection>
+        <Projects />
+      </StyledSection>
     </StyledContainer>
   )
 }
