@@ -21,12 +21,16 @@ export const StyledProjectCotainer = styled.div`
 `
 
 export const StyledDivIcon = styled.div`
-  padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--secondary-color);
-  border-radius: 8px;
+  
+  img {
+    height: 68px;
+    width: 68px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+  }
 `
 
 export const StyledProjectContent = styled.div`
@@ -58,4 +62,16 @@ export const StyledDivLinks = styled.div`
   align-items: center;
   justify-content: center;
   gap: 16px;
+  
+  a {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: 0.5px solid var(--secondary-color);
+  }
 `

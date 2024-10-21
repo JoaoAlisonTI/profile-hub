@@ -11,7 +11,7 @@ export const Header = () => {
       </StyledHeaderTop>
       
       <StyledHeaderContent>
-        <img src="/images/perfil.png" alt="Imagem de perfil" />
+        <img src="/images/perfil2.jpeg" alt="Imagem de um personagem de anime" />
         <StyledTextContent>
           <h1>Desenvolvedor Front-End</h1>
           <p>"Transformando ideias em experiências digitais"</p>

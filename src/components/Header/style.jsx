@@ -27,9 +27,14 @@ export const StyledHeaderContent = styled.div`
   flex-direction: column;
   
   img {
-    padding: 4px;
+    margin-bottom: 16px;
     border-radius: 100%;
-    width: 148px;
+    border: 2px solid var(--secondary-color);
+    width: 160px;
+    
+    &:hover {
+      border-color: var(--primary-color);
+    }
   }
 `;
 
